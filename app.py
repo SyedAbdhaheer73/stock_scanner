@@ -22,6 +22,7 @@ def get_universe():
 
 UNIVERSE = get_universe()
 st.caption(f"Universe size: {len(UNIVERSE)} stocks")
+st.caption(f"Made with ❤️ by Syed Abdhaheer")
 
 # -------- DATA FRESHNESS --------
 _, market_ts = fetch_price("^NSEI")
